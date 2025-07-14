@@ -1,3 +1,1032 @@
 # GES830
 SAR: 
 Stratégie de trading utilisant le SAR parabolique avec une moyenne mobile et des conditions de sortie (stop-loss/profit-loss)
+
+
+
+
+at 2025-06-05 00:00:00 We buy position of price 139.98028564453125
+Acheter action Profit:  Ticker
+NVDA    15.010167
+dtype: float64 %
+profitable trades0 total 0 total cash  0
+
+at 2025-06-05 00:00:00 We buy position of price 139.98028564453125
+Acheter action Profit:  Ticker
+NVDA    41.565252
+dtype: float64 %
+profitable trades0 total 0 total cash  0
+
+C:\Users\alexi\AppData\Local\Temp\ipykernel_13876\989039489.py:3: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, interval=intervalOverride, keepna=False)
+[*********************100%***********************]  1 of 1 completed
+
+at 2025-05-22 00:00:00 We sell position of price 201.36000061035156
+at 2025-06-24 00:00:00 We buy position of price 200.3000030517578
+we do a margin of 1.05999755859375
+Acheter action Profit:  Ticker
+AAPL   -3.694429
+dtype: float64 %
+profitable trades1 total 1 total cash  -200.3000030517578
+
+Acheter action Profit:  Ticker
+AAPL    1.720377
+dtype: float64 %
+profitable trades0 total 0 total cash  0
+
+
+
+at 2025-06-10 04:15:00+00:00 We sell position of price 1.140380859375
+at 2025-06-10 05:00:00+00:00 We buy position of price 1.140380859375
+we do a margin of 0.0
+at 2025-06-10 05:45:00+00:00 We sell position of price 1.140380859375
+at 2025-06-10 06:20:00+00:00 We buy position of price 1.1418131589889526
+we do a margin of -0.0014322996139526367
+at 2025-06-10 10:25:00+00:00 We buy position of price 1.1424654722213745
+at 2025-06-10 12:00:00+00:00 STOP LOSS: We sell position of price 1.1435105800628662
+we do a margin of 0.0010451078414916992
+at 2025-06-10 12:45:00+00:00 We buy position of price 1.1437721252441406
+at 2025-06-10 14:05:00+00:00 We sell position of price 1.144164800643921
+we do a margin of 0.00039267539978027344
+at 2025-06-10 17:20:00+00:00 We sell position of price 1.1420739889144897
+at 2025-06-10 17:40:00+00:00 We buy position of price 1.142987847328186
+we do a margin of -0.0009138584136962891
+at 2025-06-10 18:15:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-10 19:10:00+00:00 We buy position of price 1.142987847328186
+we do a margin of -0.0007834434509277344
+at 2025-06-10 21:30:00+00:00 We buy position of price 1.1431183815002441
+at 2025-06-10 23:15:00+00:00 We sell position of price 1.1427265405654907
+we do a margin of -0.00039184093475341797
+at 2025-06-10 23:30:00+00:00 We buy position of price 1.1439030170440674
+at 2025-06-11 00:25:00+00:00 We sell position of price 1.142987847328186
+we do a margin of -0.0009151697158813477
+at 2025-06-11 04:00:00+00:00 We sell position of price 1.1415525674819946
+at 2025-06-11 04:15:00+00:00 We buy position of price 1.1420739889144897
+we do a margin of -0.0005214214324951172
+at 2025-06-11 06:10:00+00:00 We sell position of price 1.1418131589889526
+at 2025-06-11 06:50:00+00:00 We buy position of price 1.1422044038772583
+we do a margin of -0.00039124488830566406
+at 2025-06-11 10:45:00+00:00 We buy position of price 1.144164800643921
+at 2025-06-11 11:10:00+00:00 We sell position of price 1.1436413526535034
+we do a margin of -0.0005234479904174805
+at 2025-06-11 12:00:00+00:00 We buy position of price 1.1440337896347046
+at 2025-06-11 12:30:00+00:00 STOP LOSS: We sell position of price 1.1469204425811768
+we do a margin of 0.002886652946472168
+at 2025-06-11 14:45:00+00:00 We buy position of price 1.1488970518112183
+at 2025-06-11 17:35:00+00:00 We sell position of price 1.1494252681732178
+we do a margin of 0.0005282163619995117
+at 2025-06-11 17:50:00+00:00 We buy position of price 1.1499539613723755
+at 2025-06-11 18:15:00+00:00 We sell position of price 1.1491611003875732
+we do a margin of -0.0007928609848022461
+at 2025-06-12 00:25:00+00:00 We buy position of price 1.1516757011413574
+at 2025-06-12 00:50:00+00:00 STOP LOSS: We sell position of price 1.1527377367019653
+we do a margin of 0.0010620355606079102
+at 2025-06-12 03:10:00+00:00 We buy position of price 1.1520737409591675
+at 2025-06-12 04:10:00+00:00 We sell position of price 1.1516757011413574
+we do a margin of -0.0003980398178100586
+at 2025-06-12 05:20:00+00:00 We buy position of price 1.1527377367019653
+at 2025-06-12 06:15:00+00:00 We sell position of price 1.1518083810806274
+we do a margin of -0.0009293556213378906
+at 2025-06-12 06:15:00+00:00 We sell position of price 1.1518083810806274
+at 2025-06-12 07:50:00+00:00 We buy position of price 1.1522064208984375
+we do a margin of -0.0003980398178100586
+at 2025-06-12 09:50:00+00:00 We buy position of price 1.1578094959259033
+at 2025-06-12 10:30:00+00:00 STOP LOSS: We sell position of price 1.1590172052383423
+we do a margin of 0.0012077093124389648
+at 2025-06-12 12:10:00+00:00 We buy position of price 1.1602274179458618
+at 2025-06-12 12:30:00+00:00 STOP LOSS: We sell position of price 1.1619800329208374
+we do a margin of 0.001752614974975586
+at 2025-06-12 16:45:00+00:00 We sell position of price 1.1570056676864624
+at 2025-06-12 17:50:00+00:00 We buy position of price 1.1582117080688477
+we do a margin of -0.001206040382385254
+at 2025-06-12 21:05:00+00:00 We buy position of price 1.1592857837677002
+ Profit : inf %
+Acheter action Profit:  Ticker
+EURUSD=X    1.520065
+dtype: float64 %
+profitable trades7 total 21 profit: inf
+stop losses  5
+
+C:\Users\alexi\AppData\Local\Temp\ipykernel_13876\1012626721.py:143: RuntimeWarning: divide by zero encountered in scalar divide
+  profit = 100*(totalCash / initial - 1)
+
+at 2025-06-02 09:00:00+00:00 We buy position of price 1.1428571939468384
+at 2025-06-02 09:55:00+00:00 We sell position of price 1.1428571939468384
+we do a margin of 0.0
+at 2025-06-02 11:10:00+00:00 We buy position of price 1.1425960063934326
+at 2025-06-02 11:35:00+00:00 We sell position of price 1.1419435739517212
+we do a margin of -0.0006524324417114258
+at 2025-06-02 13:00:00+00:00 We sell position of price 1.1419435739517212
+at 2025-06-02 13:25:00+00:00STOP LOSS We buy position of price 1.1416828632354736
+we do a margin of 0.0002607107162475586
+at 2025-06-02 21:25:00+00:00 We buy position of price 1.1445575952529907
+at 2025-06-02 23:45:00+00:00 STOP LOSS: We sell position of price 1.1456066370010376
+we do a margin of 0.001049041748046875
+at 2025-06-03 01:50:00+00:00 We sell position of price 1.1432491540908813
+at 2025-06-03 02:40:00+00:00STOP LOSS We buy position of price 1.1425960063934326
+we do a margin of 0.0006531476974487305
+at 2025-06-03 03:25:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-03 04:45:00+00:00 We buy position of price 1.1427265405654907
+we do a margin of -0.0005221366882324219
+at 2025-06-03 05:25:00+00:00 We sell position of price 1.1419435739517212
+at 2025-06-03 05:55:00+00:00 We buy position of price 1.1427265405654907
+we do a margin of -0.0007829666137695312
+at 2025-06-03 07:05:00+00:00 We sell position of price 1.1424654722213745
+at 2025-06-03 07:15:00+00:00 We buy position of price 1.1435105800628662
+we do a margin of -0.0010451078414916992
+at 2025-06-03 07:30:00+00:00 We sell position of price 1.1423349380493164
+at 2025-06-03 08:00:00+00:00STOP LOSS We buy position of price 1.1418131589889526
+we do a margin of 0.0005217790603637695
+at 2025-06-03 09:00:00+00:00 We sell position of price 1.1406410932540894
+at 2025-06-03 09:25:00+00:00 We buy position of price 1.1418131589889526
+we do a margin of -0.0011720657348632812
+at 2025-06-03 10:05:00+00:00 We sell position of price 1.1407711505889893
+at 2025-06-03 11:05:00+00:00STOP LOSS We buy position of price 1.1398608684539795
+we do a margin of 0.0009102821350097656
+at 2025-06-03 12:05:00+00:00 We sell position of price 1.1389521360397339
+at 2025-06-03 13:10:00+00:00 We buy position of price 1.1390818357467651
+we do a margin of -0.00012969970703125
+at 2025-06-03 13:30:00+00:00 We sell position of price 1.1381744146347046
+at 2025-06-03 13:35:00+00:00 We buy position of price 1.1396011114120483
+we do a margin of -0.00142669677734375
+at 2025-06-03 14:00:00+00:00 We sell position of price 1.1376564502716064
+at 2025-06-03 14:30:00+00:00 We buy position of price 1.1396011114120483
+we do a margin of -0.0019446611404418945
+at 2025-06-03 15:50:00+00:00 We sell position of price 1.1375269889831543
+at 2025-06-03 17:10:00+00:00 We buy position of price 1.1383039951324463
+we do a margin of -0.0007770061492919922
+at 2025-06-03 18:35:00+00:00 We sell position of price 1.1375269889831543
+at 2025-06-03 20:35:00+00:00 We buy position of price 1.1376564502716064
+we do a margin of -0.00012946128845214844
+ Profit : nan %
+Acheter action Profit:  Ticker
+EURUSD=X    0.204943
+dtype: float64 %
+profitable trades5 total 16 profit: nan
+stop losses  5
+
+C:\Users\alexi\AppData\Local\Temp\ipykernel_13876\1012626721.py:143: RuntimeWarning: invalid value encountered in scalar divide
+  profit = 100*(totalCash / initial - 1)
+
+at 2025-06-01 23:55:00+00:00 We sell position of price 1.1354604959487915
+at 2025-06-02 00:05:00+00:00 We buy position of price 1.1366219520568848
+we do a margin of -0.0011614561080932617
+at 2025-06-02 09:00:00+00:00 We buy position of price 1.1428571939468384
+at 2025-06-02 09:55:00+00:00 We sell position of price 1.1428571939468384
+we do a margin of 0.0
+at 2025-06-02 11:10:00+00:00 We buy position of price 1.1425960063934326
+at 2025-06-02 11:35:00+00:00 We sell position of price 1.1419435739517212
+we do a margin of -0.0006524324417114258
+at 2025-06-02 13:00:00+00:00 We sell position of price 1.1419435739517212
+at 2025-06-02 13:25:00+00:00STOP LOSS We buy position of price 1.1416828632354736
+we do a margin of 0.0002607107162475586
+at 2025-06-02 21:25:00+00:00 We buy position of price 1.1445575952529907
+at 2025-06-02 23:45:00+00:00 STOP LOSS: We sell position of price 1.1456066370010376
+we do a margin of 0.001049041748046875
+at 2025-06-03 01:50:00+00:00 We sell position of price 1.1432491540908813
+at 2025-06-03 02:40:00+00:00STOP LOSS We buy position of price 1.1425960063934326
+we do a margin of 0.0006531476974487305
+at 2025-06-03 03:25:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-03 04:45:00+00:00 We buy position of price 1.1427265405654907
+we do a margin of -0.0005221366882324219
+at 2025-06-03 05:25:00+00:00 We sell position of price 1.1419435739517212
+at 2025-06-03 05:55:00+00:00 We buy position of price 1.1427265405654907
+we do a margin of -0.0007829666137695312
+at 2025-06-03 07:05:00+00:00 We sell position of price 1.1424654722213745
+at 2025-06-03 07:15:00+00:00 We buy position of price 1.1435105800628662
+we do a margin of -0.0010451078414916992
+at 2025-06-03 07:30:00+00:00 We sell position of price 1.1423349380493164
+at 2025-06-03 08:00:00+00:00STOP LOSS We buy position of price 1.1418131589889526
+we do a margin of 0.0005217790603637695
+at 2025-06-03 09:00:00+00:00 We sell position of price 1.1406410932540894
+at 2025-06-03 09:25:00+00:00 We buy position of price 1.1418131589889526
+we do a margin of -0.0011720657348632812
+at 2025-06-03 10:05:00+00:00 We sell position of price 1.1407711505889893
+at 2025-06-03 11:05:00+00:00STOP LOSS We buy position of price 1.1398608684539795
+we do a margin of 0.0009102821350097656
+at 2025-06-03 12:05:00+00:00 We sell position of price 1.1389521360397339
+at 2025-06-03 13:10:00+00:00 We buy position of price 1.1390818357467651
+we do a margin of -0.00012969970703125
+at 2025-06-03 13:30:00+00:00 We sell position of price 1.1381744146347046
+at 2025-06-03 13:35:00+00:00 We buy position of price 1.1396011114120483
+we do a margin of -0.00142669677734375
+at 2025-06-03 14:00:00+00:00 We sell position of price 1.1376564502716064
+at 2025-06-03 14:30:00+00:00 We buy position of price 1.1396011114120483
+we do a margin of -0.0019446611404418945
+at 2025-06-03 15:50:00+00:00 We sell position of price 1.1375269889831543
+at 2025-06-03 17:10:00+00:00 We buy position of price 1.1383039951324463
+we do a margin of -0.0007770061492919922
+at 2025-06-03 18:35:00+00:00 We sell position of price 1.1375269889831543
+at 2025-06-03 20:35:00+00:00 We buy position of price 1.1376564502716064
+we do a margin of -0.00012946128845214844
+at 2025-06-04 01:20:00+00:00 We buy position of price 1.1390818357467651
+at 2025-06-04 02:20:00+00:00 We sell position of price 1.1384334564208984
+we do a margin of -0.0006483793258666992
+at 2025-06-04 04:45:00+00:00 We sell position of price 1.1371389627456665
+at 2025-06-04 06:15:00+00:00 We buy position of price 1.1371389627456665
+we do a margin of 0.0
+at 2025-06-04 08:30:00+00:00 We buy position of price 1.1398608684539795
+at 2025-06-04 09:20:00+00:00 We sell position of price 1.1393414735794067
+we do a margin of -0.0005193948745727539
+at 2025-06-04 12:15:00+00:00 We buy position of price 1.1401208639144897
+at 2025-06-04 13:35:00+00:00 We sell position of price 1.1399909257888794
+we do a margin of -0.00012993812561035156
+at 2025-06-04 16:05:00+00:00 We buy position of price 1.1428571939468384
+at 2025-06-04 17:15:00+00:00 We sell position of price 1.1428571939468384
+we do a margin of 0.0
+at 2025-06-04 17:45:00+00:00 We buy position of price 1.1436413526535034
+at 2025-06-04 18:00:00+00:00 We sell position of price 1.1425960063934326
+we do a margin of -0.0010453462600708008
+at 2025-06-04 21:00:00+00:00 We sell position of price 1.1416828632354736
+at 2025-06-04 21:30:00+00:00 We buy position of price 1.1424654722213745
+we do a margin of -0.0007826089859008789
+at 2025-06-05 00:20:00+00:00 We buy position of price 1.1428571939468384
+at 2025-06-05 01:15:00+00:00 We sell position of price 1.1427265405654907
+we do a margin of -0.00013065338134765625
+at 2025-06-05 03:50:00+00:00 We sell position of price 1.141422152519226
+at 2025-06-05 06:05:00+00:00 We buy position of price 1.1416828632354736
+we do a margin of -0.0002607107162475586
+at 2025-06-05 06:35:00+00:00 We sell position of price 1.1410315036773682
+at 2025-06-05 07:10:00+00:00 We buy position of price 1.1422044038772583
+we do a margin of -0.0011729001998901367
+at 2025-06-05 07:55:00+00:00 We sell position of price 1.141291856765747
+at 2025-06-05 09:20:00+00:00 We buy position of price 1.1423349380493164
+we do a margin of -0.001043081283569336
+at 2025-06-05 12:00:00+00:00 We buy position of price 1.1432491540908813
+at 2025-06-05 12:15:00+00:00 We sell position of price 1.1419435739517212
+we do a margin of -0.0013055801391601562
+at 2025-06-05 12:25:00+00:00 We buy position of price 1.1437721252441406
+at 2025-06-05 13:00:00+00:00 We sell position of price 1.1422044038772583
+we do a margin of -0.0015677213668823242
+at 2025-06-05 13:10:00+00:00 We buy position of price 1.1462632417678833
+at 2025-06-05 13:25:00+00:00 STOP LOSS: We sell position of price 1.1482374668121338
+we do a margin of 0.0019742250442504883
+at 2025-06-05 17:30:00+00:00 We sell position of price 1.144164800643921
+at 2025-06-05 18:10:00+00:00 We buy position of price 1.144164800643921
+we do a margin of 0.0
+at 2025-06-05 18:45:00+00:00 We sell position of price 1.1436413526535034
+at 2025-06-05 18:55:00+00:00 We buy position of price 1.1445575952529907
+we do a margin of -0.0009162425994873047
+at 2025-06-05 19:35:00+00:00 We sell position of price 1.1439030170440674
+at 2025-06-05 20:15:00+00:00 We buy position of price 1.144819736480713
+we do a margin of -0.0009167194366455078
+at 2025-06-05 22:40:00+00:00 We buy position of price 1.1453442573547363
+at 2025-06-06 00:45:00+00:00 We sell position of price 1.1454753875732422
+we do a margin of 0.00013113021850585938
+at 2025-06-06 04:05:00+00:00 We sell position of price 1.1442956924438477
+at 2025-06-06 05:55:00+00:00 We buy position of price 1.1439030170440674
+we do a margin of 0.00039267539978027344
+at 2025-06-06 06:15:00+00:00 We sell position of price 1.142987847328186
+at 2025-06-06 06:45:00+00:00 We buy position of price 1.144164800643921
+we do a margin of -0.0011769533157348633
+at 2025-06-06 07:05:00+00:00 We sell position of price 1.142987847328186
+at 2025-06-06 08:45:00+00:00STOP LOSS We buy position of price 1.1427265405654907
+we do a margin of 0.0002613067626953125
+at 2025-06-06 11:15:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-06 11:30:00+00:00 We buy position of price 1.1428571939468384
+we do a margin of -0.0006527900695800781
+at 2025-06-06 11:50:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-06 12:10:00+00:00STOP LOSS We buy position of price 1.141422152519226
+we do a margin of 0.0007822513580322266
+at 2025-06-06 14:45:00+00:00 We sell position of price 1.1397310495376587
+at 2025-06-06 14:55:00+00:00STOP LOSS We buy position of price 1.139211654663086
+we do a margin of 0.0005193948745727539
+at 2025-06-06 16:55:00+00:00 We sell position of price 1.1389521360397339
+at 2025-06-06 18:00:00+00:00 We buy position of price 1.1398608684539795
+we do a margin of -0.0009087324142456055
+at 2025-06-08 23:00:00+00:00 We buy position of price 1.1411616802215576
+at 2025-06-09 00:15:00+00:00 We sell position of price 1.1401208639144897
+we do a margin of -0.001040816307067871
+at 2025-06-09 01:15:00+00:00 We buy position of price 1.1407711505889893
+at 2025-06-09 01:55:00+00:00 STOP LOSS: We sell position of price 1.1418131589889526
+we do a margin of 0.001042008399963379
+at 2025-06-09 04:20:00+00:00 We buy position of price 1.1419435739517212
+at 2025-06-09 05:35:00+00:00 We sell position of price 1.1415525674819946
+we do a margin of -0.0003910064697265625
+at 2025-06-09 05:45:00+00:00 We buy position of price 1.1423349380493164
+at 2025-06-09 07:10:00+00:00 We sell position of price 1.1424654722213745
+we do a margin of 0.00013053417205810547
+at 2025-06-09 07:40:00+00:00 We buy position of price 1.1431183815002441
+at 2025-06-09 07:50:00+00:00 We sell position of price 1.1423349380493164
+we do a margin of -0.0007834434509277344
+at 2025-06-09 08:25:00+00:00 We buy position of price 1.142987847328186
+at 2025-06-09 09:15:00+00:00 STOP LOSS: We sell position of price 1.1440337896347046
+we do a margin of 0.0010459423065185547
+at 2025-06-09 11:25:00+00:00 We sell position of price 1.1419435739517212
+at 2025-06-09 12:25:00+00:00STOP LOSS We buy position of price 1.141291856765747
+we do a margin of 0.0006517171859741211
+at 2025-06-09 14:30:00+00:00 We sell position of price 1.1402509212493896
+at 2025-06-09 14:55:00+00:00 We buy position of price 1.1411616802215576
+we do a margin of -0.0009107589721679688
+at 2025-06-09 16:45:00+00:00 We buy position of price 1.1427265405654907
+at 2025-06-09 18:00:00+00:00 We sell position of price 1.1423349380493164
+we do a margin of -0.0003916025161743164
+at 2025-06-09 18:20:00+00:00 We buy position of price 1.142987847328186
+at 2025-06-09 19:30:00+00:00 We sell position of price 1.1428571939468384
+we do a margin of -0.00013065338134765625
+at 2025-06-10 04:15:00+00:00 We sell position of price 1.140380859375
+at 2025-06-10 05:00:00+00:00 We buy position of price 1.140380859375
+we do a margin of 0.0
+at 2025-06-10 05:45:00+00:00 We sell position of price 1.140380859375
+at 2025-06-10 06:20:00+00:00 We buy position of price 1.1418131589889526
+we do a margin of -0.0014322996139526367
+at 2025-06-10 10:25:00+00:00 We buy position of price 1.1424654722213745
+at 2025-06-10 12:00:00+00:00 STOP LOSS: We sell position of price 1.1435105800628662
+we do a margin of 0.0010451078414916992
+at 2025-06-10 12:45:00+00:00 We buy position of price 1.1437721252441406
+at 2025-06-10 14:05:00+00:00 We sell position of price 1.144164800643921
+we do a margin of 0.00039267539978027344
+at 2025-06-10 17:20:00+00:00 We sell position of price 1.1420739889144897
+at 2025-06-10 17:40:00+00:00 We buy position of price 1.142987847328186
+we do a margin of -0.0009138584136962891
+at 2025-06-10 18:15:00+00:00 We sell position of price 1.1422044038772583
+at 2025-06-10 19:10:00+00:00 We buy position of price 1.142987847328186
+we do a margin of -0.0007834434509277344
+at 2025-06-10 21:30:00+00:00 We buy position of price 1.1431183815002441
+at 2025-06-10 23:15:00+00:00 We sell position of price 1.1427265405654907
+we do a margin of -0.00039184093475341797
+at 2025-06-10 23:30:00+00:00 We buy position of price 1.1439030170440674
+at 2025-06-11 00:25:00+00:00 We sell position of price 1.142987847328186
+we do a margin of -0.0009151697158813477
+at 2025-06-11 04:00:00+00:00 We sell position of price 1.1415525674819946
+at 2025-06-11 04:15:00+00:00 We buy position of price 1.1420739889144897
+we do a margin of -0.0005214214324951172
+at 2025-06-11 06:10:00+00:00 We sell position of price 1.1418131589889526
+at 2025-06-11 06:50:00+00:00 We buy position of price 1.1422044038772583
+we do a margin of -0.00039124488830566406
+at 2025-06-11 10:45:00+00:00 We buy position of price 1.144164800643921
+at 2025-06-11 11:10:00+00:00 We sell position of price 1.1436413526535034
+we do a margin of -0.0005234479904174805
+at 2025-06-11 12:00:00+00:00 We buy position of price 1.1440337896347046
+at 2025-06-11 12:30:00+00:00 STOP LOSS: We sell position of price 1.1469204425811768
+we do a margin of 0.002886652946472168
+at 2025-06-11 14:45:00+00:00 We buy position of price 1.1488970518112183
+at 2025-06-11 17:35:00+00:00 We sell position of price 1.1494252681732178
+we do a margin of 0.0005282163619995117
+at 2025-06-11 17:50:00+00:00 We buy position of price 1.1499539613723755
+at 2025-06-11 18:15:00+00:00 We sell position of price 1.1491611003875732
+we do a margin of -0.0007928609848022461
+at 2025-06-12 00:25:00+00:00 We buy position of price 1.1516757011413574
+at 2025-06-12 00:50:00+00:00 STOP LOSS: We sell position of price 1.1527377367019653
+we do a margin of 0.0010620355606079102
+at 2025-06-12 03:10:00+00:00 We buy position of price 1.1520737409591675
+at 2025-06-12 04:10:00+00:00 We sell position of price 1.1516757011413574
+we do a margin of -0.0003980398178100586
+at 2025-06-12 05:20:00+00:00 We buy position of price 1.1527377367019653
+at 2025-06-12 06:15:00+00:00 We sell position of price 1.1518083810806274
+we do a margin of -0.0009293556213378906
+at 2025-06-12 06:15:00+00:00 We sell position of price 1.1518083810806274
+at 2025-06-12 07:50:00+00:00 We buy position of price 1.1522064208984375
+we do a margin of -0.0003980398178100586
+at 2025-06-12 09:50:00+00:00 We buy position of price 1.1578094959259033
+at 2025-06-12 10:30:00+00:00 STOP LOSS: We sell position of price 1.1590172052383423
+we do a margin of 0.0012077093124389648
+at 2025-06-12 12:10:00+00:00 We buy position of price 1.1602274179458618
+at 2025-06-12 12:30:00+00:00 STOP LOSS: We sell position of price 1.1619800329208374
+we do a margin of 0.001752614974975586
+at 2025-06-12 16:45:00+00:00 We sell position of price 1.1570056676864624
+at 2025-06-12 17:50:00+00:00 We buy position of price 1.1582117080688477
+we do a margin of -0.001206040382385254
+at 2025-06-12 21:05:00+00:00 We buy position of price 1.1592857837677002
+at 2025-06-12 23:55:00+00:00 STOP LOSS: We sell position of price 1.1603620052337646
+we do a margin of 0.0010762214660644531
+at 2025-06-13 02:40:00+00:00 We sell position of price 1.1544678211212158
+at 2025-06-13 03:05:00+00:00STOP LOSS We buy position of price 1.1539349555969238
+we do a margin of 0.0005328655242919922
+at 2025-06-13 04:15:00+00:00 We sell position of price 1.1530035734176636
+at 2025-06-13 04:25:00+00:00STOP LOSS We buy position of price 1.1526048183441162
+we do a margin of 0.0003987550735473633
+at 2025-06-13 05:25:00+00:00 We sell position of price 1.1516757011413574
+at 2025-06-13 05:40:00+00:00STOP LOSS We buy position of price 1.1536686420440674
+we do a margin of -0.001992940902709961
+at 2025-06-13 10:10:00+00:00 We sell position of price 1.152339220046997
+at 2025-06-13 10:35:00+00:00STOP LOSS We buy position of price 1.1518083810806274
+we do a margin of 0.0005308389663696289
+at 2025-06-13 12:50:00+00:00 We sell position of price 1.1516757011413574
+at 2025-06-13 13:30:00+00:00STOP LOSS We buy position of price 1.151012897491455
+we do a margin of 0.0006628036499023438
+at 2025-06-13 15:10:00+00:00 We buy position of price 1.1548677682876587
+at 2025-06-13 15:25:00+00:00 STOP LOSS: We sell position of price 1.156203031539917
+we do a margin of 0.0013352632522583008
+at 2025-06-13 17:55:00+00:00 We buy position of price 1.155401587486267
+at 2025-06-13 18:40:00+00:00 We sell position of price 1.1539349555969238
+we do a margin of -0.0014666318893432617
+at 2025-06-15 23:00:00+00:00 We sell position of price 1.1539349555969238
+at 2025-06-16 00:10:00+00:00 We buy position of price 1.1547343730926514
+we do a margin of -0.0007994174957275391
+at 2025-06-16 00:50:00+00:00 We sell position of price 1.1535356044769287
+at 2025-06-16 02:55:00+00:00 We buy position of price 1.1538017988204956
+we do a margin of -0.00026619434356689453
+at 2025-06-16 06:40:00+00:00 We buy position of price 1.156203031539917
+at 2025-06-16 06:55:00+00:00 STOP LOSS: We sell position of price 1.1575413942337036
+we do a margin of 0.001338362693786621
+at 2025-06-16 08:55:00+00:00 We buy position of price 1.1587486267089844
+at 2025-06-16 09:20:00+00:00 We sell position of price 1.1579434871673584
+we do a margin of -0.0008051395416259766
+at 2025-06-16 09:55:00+00:00 We buy position of price 1.1587486267089844
+at 2025-06-16 10:15:00+00:00 We sell position of price 1.1576753854751587
+we do a margin of -0.0010732412338256836
+at 2025-06-16 11:20:00+00:00 We buy position of price 1.1586142778396606
+at 2025-06-16 11:35:00+00:00 We sell position of price 1.1575413942337036
+we do a margin of -0.0010728836059570312
+at 2025-06-16 13:55:00+00:00 We buy position of price 1.1607661247253418
+at 2025-06-16 14:40:00+00:00 We sell position of price 1.1599582433700562
+we do a margin of -0.0008078813552856445
+at 2025-06-16 19:05:00+00:00 We sell position of price 1.1576753854751587
+at 2025-06-16 19:40:00+00:00STOP LOSS We buy position of price 1.1568717956542969
+we do a margin of 0.0008035898208618164
+at 2025-06-16 21:00:00+00:00 We sell position of price 1.1551345586776733
+at 2025-06-16 21:05:00+00:00 We buy position of price 1.156738042831421
+we do a margin of -0.0016034841537475586
+at 2025-06-16 22:30:00+00:00 We sell position of price 1.1558021306991577
+at 2025-06-17 00:30:00+00:00STOP LOSS We buy position of price 1.1551345586776733
+we do a margin of 0.000667572021484375
+at 2025-06-17 02:05:00+00:00 We sell position of price 1.155401587486267
+at 2025-06-17 02:50:00+00:00 We buy position of price 1.1560693979263306
+we do a margin of -0.0006678104400634766
+at 2025-06-17 06:10:00+00:00 We buy position of price 1.1564704179763794
+at 2025-06-17 07:00:00+00:00 We sell position of price 1.1560693979263306
+we do a margin of -0.0004010200500488281
+at 2025-06-17 07:50:00+00:00 We buy position of price 1.1566041707992554
+at 2025-06-17 08:55:00+00:00 We sell position of price 1.155401587486267
+we do a margin of -0.0012025833129882812
+at 2025-06-17 08:55:00+00:00 We sell position of price 1.155401587486267
+at 2025-06-17 09:50:00+00:00 We buy position of price 1.1564704179763794
+we do a margin of -0.0010688304901123047
+at 2025-06-17 12:10:00+00:00 We buy position of price 1.1574074029922485
+at 2025-06-17 12:40:00+00:00 We sell position of price 1.156203031539917
+we do a margin of -0.001204371452331543
+at 2025-06-17 13:15:00+00:00 We buy position of price 1.157273530960083
+at 2025-06-17 14:05:00+00:00 We sell position of price 1.1555349826812744
+we do a margin of -0.0017385482788085938
+at 2025-06-17 14:05:00+00:00 We sell position of price 1.1555349826812744
+at 2025-06-17 14:20:00+00:00STOP LOSS We buy position of price 1.1548677682876587
+we do a margin of 0.0006672143936157227
+at 2025-06-17 16:25:00+00:00 We sell position of price 1.1528706550598145
+at 2025-06-17 16:45:00+00:00STOP LOSS We buy position of price 1.152339220046997
+we do a margin of 0.0005314350128173828
+at 2025-06-17 17:40:00+00:00 We sell position of price 1.1494252681732178
+at 2025-06-17 17:45:00+00:00STOP LOSS We buy position of price 1.1494252681732178
+we do a margin of 0.0
+at 2025-06-17 20:10:00+00:00 We sell position of price 1.1478420495986938
+at 2025-06-17 21:10:00+00:00 We buy position of price 1.1491611003875732
+we do a margin of -0.0013190507888793945
+at 2025-06-17 22:40:00+00:00 We sell position of price 1.1481056213378906
+at 2025-06-17 23:55:00+00:00 We buy position of price 1.1486331224441528
+we do a margin of -0.000527501106262207
+at 2025-06-18 01:55:00+00:00 We buy position of price 1.15035080909729
+at 2025-06-18 02:35:00+00:00 We sell position of price 1.1496896743774414
+we do a margin of -0.0006611347198486328
+at 2025-06-18 03:10:00+00:00 We buy position of price 1.15035080909729
+at 2025-06-18 03:55:00+00:00 We sell position of price 1.1502184867858887
+we do a margin of -0.0001323223114013672
+at 2025-06-18 04:30:00+00:00 We buy position of price 1.1507480144500732
+at 2025-06-18 05:30:00+00:00 We sell position of price 1.1506155729293823
+we do a margin of -0.00013244152069091797
+at 2025-06-18 06:00:00+00:00 We buy position of price 1.151145339012146
+at 2025-06-18 06:05:00+00:00 We sell position of price 1.150483250617981
+we do a margin of -0.0006620883941650391
+at 2025-06-18 06:10:00+00:00 We buy position of price 1.151145339012146
+at 2025-06-18 06:55:00+00:00 We sell position of price 1.151012897491455
+we do a margin of -0.00013244152069091797
+at 2025-06-18 07:00:00+00:00 We buy position of price 1.152339220046997
+at 2025-06-18 08:10:00+00:00 We sell position of price 1.151410460472107
+we do a margin of -0.0009287595748901367
+at 2025-06-18 09:20:00+00:00 We buy position of price 1.1512778997421265
+at 2025-06-18 09:50:00+00:00 We sell position of price 1.15035080909729
+we do a margin of -0.0009270906448364258
+at 2025-06-18 09:50:00+00:00 We sell position of price 1.15035080909729
+at 2025-06-18 10:05:00+00:00 We buy position of price 1.1512778997421265
+we do a margin of -0.0009270906448364258
+at 2025-06-18 10:50:00+00:00 We sell position of price 1.1499539613723755
+at 2025-06-18 11:45:00+00:00 We buy position of price 1.1507480144500732
+we do a margin of -0.0007940530776977539
+at 2025-06-18 12:45:00+00:00 We sell position of price 1.1506155729293823
+at 2025-06-18 13:35:00+00:00STOP LOSS We buy position of price 1.1496896743774414
+we do a margin of 0.000925898551940918
+at 2025-06-18 14:00:00+00:00 We buy position of price 1.1518083810806274
+at 2025-06-18 14:05:00+00:00 We sell position of price 1.1512778997421265
+we do a margin of -0.0005304813385009766
+at 2025-06-18 21:00:00+00:00 We sell position of price 1.1462632417678833
+at 2025-06-18 21:05:00+00:00STOP LOSS We buy position of price 1.148369312286377
+we do a margin of -0.0021060705184936523
+at 2025-06-18 23:25:00+00:00 We sell position of price 1.1475785970687866
+at 2025-06-19 01:55:00+00:00STOP LOSS We buy position of price 1.1466574668884277
+we do a margin of 0.0009211301803588867
+at 2025-06-19 05:10:00+00:00 We sell position of price 1.1466574668884277
+at 2025-06-19 05:50:00+00:00STOP LOSS We buy position of price 1.1456066370010376
+we do a margin of 0.0010508298873901367
+at 2025-06-19 08:45:00+00:00 We buy position of price 1.1477103233337402
+at 2025-06-19 10:40:00+00:00 We sell position of price 1.1475785970687866
+we do a margin of -0.00013172626495361328
+at 2025-06-19 11:20:00+00:00 We buy position of price 1.1486331224441528
+at 2025-06-19 12:10:00+00:00 We sell position of price 1.1475785970687866
+we do a margin of -0.001054525375366211
+at 2025-06-19 13:10:00+00:00 We buy position of price 1.1485011577606201
+at 2025-06-19 13:35:00+00:00 We sell position of price 1.1477103233337402
+we do a margin of -0.0007908344268798828
+at 2025-06-19 15:50:00+00:00 We sell position of price 1.1466574668884277
+at 2025-06-19 17:10:00+00:00 We buy position of price 1.1466574668884277
+we do a margin of 0.0
+at 2025-06-19 19:05:00+00:00 We buy position of price 1.1490291357040405
+at 2025-06-19 19:40:00+00:00 STOP LOSS: We sell position of price 1.1500862836837769
+we do a margin of 0.0010571479797363281
+at 2025-06-19 20:35:00+00:00 We buy position of price 1.1502184867858887
+at 2025-06-19 21:05:00+00:00 We sell position of price 1.1495574712753296
+we do a margin of -0.000661015510559082
+at 2025-06-19 22:05:00+00:00 We buy position of price 1.15035080909729
+at 2025-06-19 22:35:00+00:00 We sell position of price 1.1495574712753296
+we do a margin of -0.0007933378219604492
+at 2025-06-19 22:50:00+00:00 We buy position of price 1.15035080909729
+at 2025-06-19 23:55:00+00:00 STOP LOSS: We sell position of price 1.151410460472107
+we do a margin of 0.0010596513748168945
+at 2025-06-20 00:40:00+00:00 We buy position of price 1.1522064208984375
+at 2025-06-20 01:40:00+00:00 We sell position of price 1.1518083810806274
+we do a margin of -0.0003980398178100586
+at 2025-06-20 02:35:00+00:00 We buy position of price 1.1524720191955566
+at 2025-06-20 04:35:00+00:00 We sell position of price 1.1528706550598145
+we do a margin of 0.0003986358642578125
+at 2025-06-20 05:55:00+00:00 We buy position of price 1.1531364917755127
+at 2025-06-20 06:20:00+00:00 We sell position of price 1.1522064208984375
+we do a margin of -0.0009300708770751953
+at 2025-06-20 06:20:00+00:00 We sell position of price 1.1522064208984375
+at 2025-06-20 07:50:00+00:00 We buy position of price 1.1520737409591675
+we do a margin of 0.00013267993927001953
+at 2025-06-20 11:45:00+00:00 We buy position of price 1.1527377367019653
+at 2025-06-20 12:30:00+00:00 We sell position of price 1.1516757011413574
+we do a margin of -0.0010620355606079102
+at 2025-06-20 12:45:00+00:00 We sell position of price 1.1508804559707642
+at 2025-06-20 14:55:00+00:00 We buy position of price 1.1520737409591675
+we do a margin of -0.0011932849884033203
+at 2025-06-20 19:10:00+00:00 We buy position of price 1.1535356044769287
+at 2025-06-20 19:25:00+00:00 We sell position of price 1.1531364917755127
+we do a margin of -0.0003991127014160156
+at 2025-06-22 23:00:00+00:00 We sell position of price 1.1491611003875732
+at 2025-06-22 23:30:00+00:00STOP LOSS We buy position of price 1.1508804559707642
+we do a margin of -0.001719355583190918
+at 2025-06-23 04:40:00+00:00 We sell position of price 1.1488970518112183
+at 2025-06-23 05:00:00+00:00 We buy position of price 1.1498217582702637
+we do a margin of -0.0009247064590454102
+at 2025-06-23 08:05:00+00:00 We sell position of price 1.1496896743774414
+at 2025-06-23 08:50:00+00:00STOP LOSS We buy position of price 1.1491611003875732
+we do a margin of 0.0005285739898681641
+at 2025-06-23 10:35:00+00:00 We sell position of price 1.1466574668884277
+at 2025-06-23 11:55:00+00:00 We buy position of price 1.1477103233337402
+we do a margin of -0.0010528564453125
+at 2025-06-23 12:25:00+00:00 We sell position of price 1.1465259790420532
+at 2025-06-23 13:05:00+00:00 We buy position of price 1.1475785970687866
+we do a margin of -0.0010526180267333984
+at 2025-06-23 14:55:00+00:00 We buy position of price 1.154068112373352
+at 2025-06-23 15:30:00+00:00 STOP LOSS: We sell position of price 1.1552680730819702
+we do a margin of 0.001199960708618164
+at 2025-06-23 16:45:00+00:00 We buy position of price 1.1558021306991577
+at 2025-06-23 17:40:00+00:00 STOP LOSS: We sell position of price 1.1568717956542969
+we do a margin of 0.0010696649551391602
+at 2025-06-23 19:00:00+00:00 We buy position of price 1.158077597618103
+at 2025-06-23 19:20:00+00:00 We sell position of price 1.1574074029922485
+we do a margin of -0.0006701946258544922
+at 2025-06-23 19:35:00+00:00 We buy position of price 1.158077597618103
+at 2025-06-23 20:55:00+00:00 We sell position of price 1.158077597618103
+we do a margin of 0.0
+at 2025-06-23 22:00:00+00:00 We buy position of price 1.1586142778396606
+at 2025-06-23 22:20:00+00:00 STOP LOSS: We sell position of price 1.1599582433700562
+we do a margin of 0.0013439655303955078
+at 2025-06-24 00:40:00+00:00 We buy position of price 1.1606314182281494
+at 2025-06-24 00:50:00+00:00 We sell position of price 1.1594202518463135
+we do a margin of -0.0012111663818359375
+at 2025-06-24 02:35:00+00:00 We buy position of price 1.1602274179458618
+at 2025-06-24 04:05:00+00:00 We sell position of price 1.1606314182281494
+we do a margin of 0.00040400028228759766
+at 2025-06-24 04:40:00+00:00 We buy position of price 1.16130530834198
+at 2025-06-24 05:00:00+00:00 We sell position of price 1.1607661247253418
+we do a margin of -0.0005391836166381836
+at 2025-06-24 05:55:00+00:00 We buy position of price 1.1617100238800049
+at 2025-06-24 06:10:00+00:00 We sell position of price 1.160496711730957
+we do a margin of -0.0012133121490478516
+at 2025-06-24 06:15:00+00:00 We buy position of price 1.1621150970458984
+at 2025-06-24 06:50:00+00:00 We sell position of price 1.1609008312225342
+we do a margin of -0.0012142658233642578
+at 2025-06-24 10:05:00+00:00 We sell position of price 1.1603620052337646
+at 2025-06-24 11:15:00+00:00 We buy position of price 1.1610356569290161
+we do a margin of -0.0006736516952514648
+at 2025-06-24 16:30:00+00:00 We buy position of price 1.1623852252960205
+at 2025-06-24 17:55:00+00:00 We sell position of price 1.1627906560897827
+we do a margin of 0.00040543079376220703
+at 2025-06-24 21:30:00+00:00 We sell position of price 1.1610356569290161
+at 2025-06-24 23:15:00+00:00 We buy position of price 1.1617100238800049
+we do a margin of -0.0006743669509887695
+at 2025-06-25 02:00:00+00:00 We buy position of price 1.1631964445114136
+at 2025-06-25 02:40:00+00:00 We sell position of price 1.1623852252960205
+we do a margin of -0.0008112192153930664
+at 2025-06-25 05:20:00+00:00 We sell position of price 1.161440134048462
+at 2025-06-25 05:35:00+00:00 We buy position of price 1.1618449687957764
+we do a margin of -0.0004048347473144531
+at 2025-06-25 06:40:00+00:00 We sell position of price 1.1617100238800049
+at 2025-06-25 07:05:00+00:00STOP LOSS We buy position of price 1.1607661247253418
+we do a margin of 0.0009438991546630859
+at 2025-06-25 07:50:00+00:00 We sell position of price 1.1594202518463135
+at 2025-06-25 08:40:00+00:00 We buy position of price 1.1609008312225342
+we do a margin of -0.0014805793762207031
+at 2025-06-25 09:25:00+00:00 We sell position of price 1.1599582433700562
+at 2025-06-25 10:15:00+00:00 We buy position of price 1.1610356569290161
+we do a margin of -0.001077413558959961
+at 2025-06-25 11:35:00+00:00 We sell position of price 1.1603620052337646
+at 2025-06-25 13:15:00+00:00 We buy position of price 1.1602274179458618
+we do a margin of 0.00013458728790283203
+at 2025-06-25 16:00:00+00:00 We buy position of price 1.1633317470550537
+at 2025-06-25 17:10:00+00:00 We sell position of price 1.163061261177063
+we do a margin of -0.00027048587799072266
+at 2025-06-25 17:25:00+00:00 We buy position of price 1.163873314857483
+at 2025-06-25 18:25:00+00:00 STOP LOSS: We sell position of price 1.1650937795639038
+we do a margin of 0.0012204647064208984
+at 2025-06-25 20:50:00+00:00 We buy position of price 1.16604483127594
+at 2025-06-25 21:25:00+00:00 We sell position of price 1.1655012369155884
+we do a margin of -0.0005435943603515625
+at 2025-06-25 22:15:00+00:00 We buy position of price 1.1661807298660278
+at 2025-06-25 23:10:00+00:00 STOP LOSS: We sell position of price 1.1674060821533203
+we do a margin of 0.0012253522872924805
+at 2025-06-26 00:40:00+00:00 We buy position of price 1.1691803932189941
+at 2025-06-26 00:45:00+00:00 We sell position of price 1.1686338186264038
+we do a margin of -0.000546574592590332
+at 2025-06-26 01:40:00+00:00 We buy position of price 1.1684973239898682
+at 2025-06-26 02:50:00+00:00 STOP LOSS: We sell position of price 1.1697274446487427
+we do a margin of 0.0012301206588745117
+at 2025-06-26 08:00:00+00:00 We buy position of price 1.1716461181640625
+at 2025-06-26 08:15:00+00:00 STOP LOSS: We sell position of price 1.1728830337524414
+we do a margin of 0.0012369155883789062
+at 2025-06-26 14:25:00+00:00 We sell position of price 1.1712344884872437
+at 2025-06-26 15:25:00+00:00STOP LOSS We buy position of price 1.1701380014419556
+we do a margin of 0.001096487045288086
+at 2025-06-26 21:00:00+00:00 We sell position of price 1.1697274446487427
+at 2025-06-26 21:05:00+00:00 We buy position of price 1.1706860065460205
+we do a margin of -0.000958561897277832
+at 2025-06-26 21:35:00+00:00 We sell position of price 1.1697274446487427
+at 2025-06-26 22:35:00+00:00STOP LOSS We buy position of price 1.1694538593292236
+we do a margin of 0.00027358531951904297
+at 2025-06-27 00:20:00+00:00 We sell position of price 1.1695905923843384
+at 2025-06-27 00:50:00+00:00 We buy position of price 1.1700011491775513
+we do a margin of -0.0004105567932128906
+at 2025-06-27 01:10:00+00:00 We sell position of price 1.1693171262741089
+at 2025-06-27 01:45:00+00:00 We buy position of price 1.1701380014419556
+we do a margin of -0.0008208751678466797
+at 2025-06-27 03:00:00+00:00 We buy position of price 1.170548915863037
+at 2025-06-27 03:55:00+00:00 We sell position of price 1.169864296913147
+we do a margin of -0.0006846189498901367
+at 2025-06-27 06:05:00+00:00 We sell position of price 1.168770432472229
+at 2025-06-27 06:15:00+00:00 We buy position of price 1.1700011491775513
+we do a margin of -0.0012307167053222656
+at 2025-06-27 08:05:00+00:00 We buy position of price 1.1727453470230103
+at 2025-06-27 08:35:00+00:00 We sell position of price 1.1716461181640625
+we do a margin of -0.001099228858947754
+at 2025-06-27 10:00:00+00:00 We buy position of price 1.171783447265625
+at 2025-06-27 10:20:00+00:00 We sell position of price 1.170548915863037
+we do a margin of -0.0012345314025878906
+at 2025-06-27 10:55:00+00:00 We buy position of price 1.171783447265625
+at 2025-06-27 12:00:00+00:00 We sell position of price 1.1712344884872437
+we do a margin of -0.0005489587783813477
+at 2025-06-27 12:00:00+00:00 We sell position of price 1.1712344884872437
+at 2025-06-27 12:20:00+00:00 We buy position of price 1.1724703311920166
+we do a margin of -0.0012358427047729492
+at 2025-06-27 15:35:00+00:00 We buy position of price 1.1727453470230103
+at 2025-06-27 16:50:00+00:00 We sell position of price 1.1724703311920166
+we do a margin of -0.00027501583099365234
+at 2025-06-29 23:00:00+00:00 We buy position of price 1.1737089157104492
+at 2025-06-29 23:55:00+00:00 We sell position of price 1.1730204820632935
+we do a margin of -0.0006884336471557617
+at 2025-06-30 01:15:00+00:00 We buy position of price 1.1728830337524414
+at 2025-06-30 01:55:00+00:00 We sell position of price 1.1724703311920166
+we do a margin of -0.0004127025604248047
+at 2025-06-30 09:35:00+00:00 We sell position of price 1.172333002090454
+at 2025-06-30 11:00:00+00:00 We buy position of price 1.1731581687927246
+we do a margin of -0.0008251667022705078
+at 2025-06-30 11:55:00+00:00 We sell position of price 1.1726078987121582
+at 2025-06-30 12:30:00+00:00STOP LOSS We buy position of price 1.171783447265625
+we do a margin of 0.0008244514465332031
+at 2025-06-30 14:00:00+00:00 We sell position of price 1.1715089082717896
+at 2025-06-30 14:05:00+00:00 We buy position of price 1.1724703311920166
+we do a margin of -0.0009614229202270508
+at 2025-06-30 15:45:00+00:00 We buy position of price 1.177024483680725
+at 2025-06-30 16:25:00+00:00 We sell position of price 1.1756407022476196
+we do a margin of -0.0013837814331054688
+at 2025-06-30 17:00:00+00:00 We buy position of price 1.177024483680725
+at 2025-06-30 18:30:00+00:00 STOP LOSS: We sell position of price 1.1781338453292847
+we do a margin of 0.0011093616485595703
+at 2025-06-30 19:05:00+00:00 We buy position of price 1.1782727241516113
+at 2025-06-30 21:10:00+00:00 We sell position of price 1.1784114837646484
+we do a margin of 0.00013875961303710938
+at 2025-06-30 22:00:00+00:00 We buy position of price 1.1791062355041504
+ Profit : inf %
+Acheter action Profit:  Ticker
+EURUSD=X    3.760463
+dtype: float64 %
+profitable trades57 total 182 profit: inf
+stop losses  50
+
+C:\Users\alexi\AppData\Local\Temp\ipykernel_13876\1012626721.py:143: RuntimeWarning: divide by zero encountered in scalar divide
+  profit = 100*(totalCash / initial - 1)
+
+
+
+at 2025-06-02 01:35:00+00:00 We buy position of price 2371.25
+at 2025-06-02 02:40:00+00:00 STOP LOSS: We sell position of price 2373.0
+we do a margin of 1.75
+at 2025-06-02 04:10:00+00:00 We sell position of price 2364.75
+at 2025-06-02 04:20:00+00:00 STOP  We buy position of price 2363.5
+we do a margin of 1.25
+at 2025-06-02 14:00:00+00:00 We buy position of price 2392.0
+at 2025-06-02 14:20:00+00:00 STOP LOSS: We sell position of price 2394.5
+we do a margin of 2.5
+at 2025-06-03 08:45:00+00:00 We sell position of price 2371.25
+at 2025-06-03 08:50:00+00:00 STOP  We buy position of price 2377.5
+we do a margin of -6.25
+at 2025-06-03 12:35:00+00:00 We buy position of price 2387.0
+at 2025-06-03 12:45:00+00:00 STOP LOSS: We sell position of price 2383.5
+we do a margin of -3.5
+at 2025-06-03 12:55:00+00:00 We sell position of price 2376.75
+at 2025-06-03 13:00:00+00:00 STOP  We buy position of price 2383.5
+we do a margin of -6.75
+at 2025-06-03 13:15:00+00:00 We buy position of price 2388.25
+at 2025-06-03 13:20:00+00:00 STOP LOSS: We sell position of price 2386.5
+we do a margin of -1.75
+at 2025-06-03 15:25:00+00:00 We buy position of price 2402.5
+at 2025-06-03 15:30:00+00:00 STOP LOSS: We sell position of price 2397.0
+we do a margin of -5.5
+
+profitable trades 3 total 8
+stop losses  8
+at 2025-06-02 01:35:00+00:00 We buy position of price 2371.25
+at 2025-06-02 02:40:00+00:00 STOP LOSS: We sell position of price 2373.0
+we do a margin of 1.75
+at 2025-06-02 04:10:00+00:00 We sell position of price 2364.75
+at 2025-06-02 04:20:00+00:00 STOP  We buy position of price 2363.5
+we do a margin of 1.25
+at 2025-06-02 14:00:00+00:00 We buy position of price 2392.0
+at 2025-06-02 14:20:00+00:00 STOP LOSS: We sell position of price 2394.5
+we do a margin of 2.5
+at 2025-06-03 08:45:00+00:00 We sell position of price 2371.25
+at 2025-06-03 08:50:00+00:00 STOP  We buy position of price 2377.5
+we do a margin of -6.25
+at 2025-06-03 12:35:00+00:00 We buy position of price 2387.0
+at 2025-06-03 12:45:00+00:00 STOP LOSS: We sell position of price 2383.5
+we do a margin of -3.5
+at 2025-06-03 12:55:00+00:00 We sell position of price 2376.75
+at 2025-06-03 13:00:00+00:00 STOP  We buy position of price 2383.5
+we do a margin of -6.75
+at 2025-06-03 13:15:00+00:00 We buy position of price 2388.25
+at 2025-06-03 13:20:00+00:00 STOP LOSS: We sell position of price 2386.5
+we do a margin of -1.75
+at 2025-06-03 15:25:00+00:00 We buy position of price 2402.5
+at 2025-06-03 15:30:00+00:00 STOP LOSS: We sell position of price 2397.0
+we do a margin of -5.5
+at 2025-06-04 05:10:00+00:00 We buy position of price 2418.25
+at 2025-06-04 05:15:00+00:00 STOP LOSS: We sell position of price 2415.75
+we do a margin of -2.5
+at 2025-06-04 12:10:00+00:00 We buy position of price 2421.0
+at 2025-06-04 12:15:00+00:00 STOP LOSS: We sell position of price 2414.75
+we do a margin of -6.25
+at 2025-06-04 12:45:00+00:00 We sell position of price 2412.5
+at 2025-06-04 12:50:00+00:00 STOP  We buy position of price 2415.75
+we do a margin of -3.25
+at 2025-06-04 13:35:00+00:00 We buy position of price 2420.25
+at 2025-06-04 13:40:00+00:00 STOP LOSS: We sell position of price 2414.5
+we do a margin of -5.75
+at 2025-06-04 16:05:00+00:00 We buy position of price 2434.0
+at 2025-06-04 16:30:00+00:00 STOP LOSS: We sell position of price 2435.75
+we do a margin of 1.75
+at 2025-06-05 09:25:00+00:00 We buy position of price 2435.75
+at 2025-06-05 09:35:00+00:00 STOP LOSS: We sell position of price 2437.0
+we do a margin of 1.25
+at 2025-06-05 12:40:00+00:00 We sell position of price 2422.5
+at 2025-06-05 12:45:00+00:00 STOP  We buy position of price 2424.25
+we do a margin of -1.75
+at 2025-06-06 05:50:00+00:00 We sell position of price 2423.5
+at 2025-06-06 05:55:00+00:00 STOP  We buy position of price 2426.5
+we do a margin of -3.0
+at 2025-06-06 09:20:00+00:00 We sell position of price 2396.5
+at 2025-06-06 10:00:00+00:00 STOP  We buy position of price 2402.5
+we do a margin of -6.0
+at 2025-06-09 00:05:00+00:00 We sell position of price 2396.25
+at 2025-06-09 01:30:00+00:00 STOP  We buy position of price 2402.5
+we do a margin of -6.25
+at 2025-06-09 07:10:00+00:00 We buy position of price 2408.75
+at 2025-06-09 07:25:00+00:00 STOP LOSS: We sell position of price 2410.5
+we do a margin of 1.75
+at 2025-06-09 14:05:00+00:00 We buy position of price 2429.75
+at 2025-06-09 14:20:00+00:00 STOP LOSS: We sell position of price 2428.0
+we do a margin of -1.75
+at 2025-06-09 16:30:00+00:00 We buy position of price 2436.0
+at 2025-06-09 16:35:00+00:00 STOP LOSS: We sell position of price 2432.5
+we do a margin of -3.5
+at 2025-06-10 04:50:00+00:00 We buy position of price 2428.5
+at 2025-06-10 05:20:00+00:00 STOP LOSS: We sell position of price 2426.5
+we do a margin of -2.0
+at 2025-06-10 06:35:00+00:00 We sell position of price 2413.5
+at 2025-06-10 06:40:00+00:00 STOP  We buy position of price 2419.5
+we do a margin of -6.0
+at 2025-06-10 07:00:00+00:00 We buy position of price 2431.0
+at 2025-06-10 07:25:00+00:00 STOP LOSS: We sell position of price 2432.5
+we do a margin of 1.5
+at 2025-06-10 10:40:00+00:00 We buy position of price 2437.25
+at 2025-06-10 10:45:00+00:00 STOP LOSS: We sell position of price 2430.0
+we do a margin of -7.25
+at 2025-06-10 15:15:00+00:00 We buy position of price 2450.25
+at 2025-06-10 15:40:00+00:00 STOP LOSS: We sell position of price 2448.75
+we do a margin of -1.5
+at 2025-06-11 03:55:00+00:00 We buy position of price 2478.5
+at 2025-06-11 04:00:00+00:00 STOP LOSS: We sell position of price 2476.0
+we do a margin of -2.5
+at 2025-06-11 05:30:00+00:00 We buy position of price 2484.0
+at 2025-06-11 05:35:00+00:00 STOP LOSS: We sell position of price 2481.0
+we do a margin of -3.0
+at 2025-06-11 11:00:00+00:00 We buy position of price 2483.5
+at 2025-06-11 11:05:00+00:00 STOP LOSS: We sell position of price 2481.75
+we do a margin of -1.75
+at 2025-06-11 15:35:00+00:00 We sell position of price 2477.25
+at 2025-06-11 15:40:00+00:00 STOP  We buy position of price 2479.25
+we do a margin of -2.0
+at 2025-06-12 08:00:00+00:00 We buy position of price 2489.25
+at 2025-06-12 08:05:00+00:00 STOP LOSS: We sell position of price 2486.0
+we do a margin of -3.25
+at 2025-06-13 00:40:00+00:00 We sell position of price 2471.25
+at 2025-06-13 00:45:00+00:00 STOP  We buy position of price 2481.5
+we do a margin of -10.25
+at 2025-06-13 13:05:00+00:00 We sell position of price 2436.75
+at 2025-06-13 13:10:00+00:00 STOP  We buy position of price 2439.25
+we do a margin of -2.5
+at 2025-06-16 15:25:00+00:00 We buy position of price 2490.0
+at 2025-06-16 15:40:00+00:00 STOP LOSS: We sell position of price 2491.25
+we do a margin of 1.25
+at 2025-06-17 06:05:00+00:00 We buy position of price 2489.25
+at 2025-06-17 06:15:00+00:00 STOP LOSS: We sell position of price 2492.5
+we do a margin of 3.25
+at 2025-06-17 10:10:00+00:00 We buy position of price 2499.0
+at 2025-06-17 10:50:00+00:00 STOP LOSS: We sell position of price 2500.5
+we do a margin of 1.5
+at 2025-06-17 15:10:00+00:00 We buy position of price 2523.25
+at 2025-06-17 15:15:00+00:00 STOP LOSS: We sell position of price 2517.5
+we do a margin of -5.75
+at 2025-06-18 01:25:00+00:00 We buy position of price 2530.75
+at 2025-06-18 02:15:00+00:00 STOP LOSS: We sell position of price 2527.5
+we do a margin of -3.25
+at 2025-06-18 11:10:00+00:00 We sell position of price 2519.0
+at 2025-06-18 11:20:00+00:00 STOP  We buy position of price 2518.0
+we do a margin of 1.0
+at 2025-06-18 12:55:00+00:00 We sell position of price 2519.25
+at 2025-06-18 13:00:00+00:00 We buy position of price 2526.75
+we do a margin of -7.5
+at 2025-06-18 17:55:00+00:00 We buy position of price 2536.75
+at 2025-06-18 18:05:00+00:00 STOP LOSS: We sell position of price 2553.25
+we do a margin of 16.5
+at 2025-06-19 14:15:00+00:00 We sell position of price 2506.0
+at 2025-06-19 15:00:00+00:00 STOP  We buy position of price 2509.5
+we do a margin of -3.5
+at 2025-06-20 03:55:00+00:00 We sell position of price 2507.5
+at 2025-06-20 04:00:00+00:00 STOP  We buy position of price 2506.0
+we do a margin of 1.5
+at 2025-06-20 09:30:00+00:00 We sell position of price 2489.0
+at 2025-06-20 09:35:00+00:00 STOP  We buy position of price 2491.0
+we do a margin of -2.0
+at 2025-06-20 11:00:00+00:00 We sell position of price 2488.25
+at 2025-06-20 11:35:00+00:00 STOP  We buy position of price 2489.75
+we do a margin of -1.5
+at 2025-06-20 16:30:00+00:00 We buy position of price 2515.5
+at 2025-06-20 16:35:00+00:00 STOP LOSS: We sell position of price 2517.0
+we do a margin of 1.5
+at 2025-06-23 06:55:00+00:00 We buy position of price 2538.25
+at 2025-06-23 07:00:00+00:00 STOP LOSS: We sell position of price 2535.0
+we do a margin of -3.25
+at 2025-06-23 13:25:00+00:00 We buy position of price 2560.25
+at 2025-06-23 13:30:00+00:00 STOP LOSS: We sell position of price 2558.25
+we do a margin of -2.0
+at 2025-06-23 15:05:00+00:00 We buy position of price 2570.5
+at 2025-06-23 15:10:00+00:00 STOP LOSS: We sell position of price 2567.5
+we do a margin of -3.0
+at 2025-06-23 22:00:00+00:00 We buy position of price 2584.5
+at 2025-06-24 00:05:00+00:00 We sell position of price 2560.0
+we do a margin of -24.5
+at 2025-06-24 11:30:00+00:00 We buy position of price 2571.0
+at 2025-06-24 11:35:00+00:00 We sell position of price 2558.5
+we do a margin of -12.5
+at 2025-06-24 16:05:00+00:00 We sell position of price 2548.5
+at 2025-06-24 16:15:00+00:00 STOP  We buy position of price 2554.25
+we do a margin of -5.75
+at 2025-06-25 07:50:00+00:00 We sell position of price 2538.25
+at 2025-06-25 08:40:00+00:00 We buy position of price 2552.0
+we do a margin of -13.75
+at 2025-06-26 02:00:00+00:00 We buy position of price 2552.5
+at 2025-06-26 02:05:00+00:00 STOP LOSS: We sell position of price 2548.75
+we do a margin of -3.75
+at 2025-06-26 14:35:00+00:00 We buy position of price 2558.75
+at 2025-06-26 14:40:00+00:00 STOP LOSS: We sell position of price 2560.75
+we do a margin of 2.0
+at 2025-06-27 04:15:00+00:00 We sell position of price 2548.75
+at 2025-06-27 04:30:00+00:00 STOP  We buy position of price 2550.25
+we do a margin of -1.5
+at 2025-06-27 17:35:00+00:00 We buy position of price 2559.25
+at 2025-06-29 22:25:00+00:00 STOP LOSS: We sell position of price 2571.5
+we do a margin of 12.25
+at 2025-06-30 06:40:00+00:00 We buy position of price 2564.5
+at 2025-06-30 07:00:00+00:00 STOP LOSS: We sell position of price 2561.25
+we do a margin of -3.25
+at 2025-06-30 13:15:00+00:00 We sell position of price 2555.5
+at 2025-06-30 13:45:00+00:00 We buy position of price 2565.0
+we do a margin of -9.5
+
+C:\Users\alexi\AppData\Local\Temp\ipykernel_13876\989039489.py:3: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, interval=intervalOverride, keepna=False)
+[*********************100%***********************]  1 of 1 completed
+
+profitable trades 16 total 59
+stop losses  54
+
+at 2025-06-02 05:05:00+00:00 We buy position of price 65.48999786376953
+at 2025-06-02 07:35:00+00:00 We sell position of price 66.0999984741211
+we do a margin of 0.6100006103515625
+at 2025-06-02 07:50:00+00:00 We buy position of price 68.30000305175781
+at 2025-06-02 07:55:00+00:00 STOP LOSS: We sell position of price 66.1500015258789
+we do a margin of -2.1500015258789062
+at 2025-06-02 08:50:00+00:00 We buy position of price 68.02999877929688
+at 2025-06-02 08:55:00+00:00 We sell position of price 66.12999725341797
+we do a margin of -1.9000015258789062
+at 2025-06-02 11:25:00+00:00 We buy position of price 68.18000030517578
+at 2025-06-02 11:30:00+00:00 STOP LOSS: We sell position of price 66.33999633789062
+we do a margin of -1.8400039672851562
+at 2025-06-02 14:30:00+00:00 We buy position of price 66.45999908447266
+at 2025-06-02 15:10:00+00:00 We sell position of price 66.5
+we do a margin of 0.04000091552734375
+at 2025-06-02 17:00:00+00:00 We buy position of price 66.54000091552734
+at 2025-06-02 18:00:00+00:00 We sell position of price 66.2300033569336
+we do a margin of -0.30999755859375
+at 2025-06-03 05:45:00+00:00 We sell position of price 65.81999969482422
+at 2025-06-03 07:10:00+00:00 We buy position of price 67.5999984741211
+we do a margin of -1.779998779296875
+at 2025-06-03 07:55:00+00:00 We sell position of price 65.81999969482422
+at 2025-06-03 10:30:00+00:00 We buy position of price 65.63999938964844
+we do a margin of 0.18000030517578125
+at 2025-06-03 11:00:00+00:00 We sell position of price 65.54000091552734
+at 2025-06-03 12:00:00+00:00 We buy position of price 65.62999725341797
+we do a margin of -0.089996337890625
+at 2025-06-03 12:20:00+00:00 We sell position of price 65.41000366210938
+at 2025-06-03 15:35:00+00:00 We buy position of price 68.11000061035156
+we do a margin of -2.6999969482421875
+
+profitable trades 3 total 10
+stop losses  2
+at 2025-06-02 05:05:00+00:00 We buy position of price 65.48999786376953
+at 2025-06-02 07:35:00+00:00 We sell position of price 66.0999984741211
+we do a margin of 0.6100006103515625
+at 2025-06-02 07:50:00+00:00 We buy position of price 68.30000305175781
+at 2025-06-02 07:55:00+00:00 STOP LOSS: We sell position of price 66.1500015258789
+we do a margin of -2.1500015258789062
+at 2025-06-02 08:50:00+00:00 We buy position of price 68.02999877929688
+at 2025-06-02 08:55:00+00:00 We sell position of price 66.12999725341797
+we do a margin of -1.9000015258789062
+at 2025-06-02 11:25:00+00:00 We buy position of price 68.18000030517578
+at 2025-06-02 11:30:00+00:00 STOP LOSS: We sell position of price 66.33999633789062
+we do a margin of -1.8400039672851562
+at 2025-06-02 14:30:00+00:00 We buy position of price 66.45999908447266
+at 2025-06-02 15:10:00+00:00 We sell position of price 66.5
+we do a margin of 0.04000091552734375
+at 2025-06-02 17:00:00+00:00 We buy position of price 66.54000091552734
+at 2025-06-02 18:00:00+00:00 We sell position of price 66.2300033569336
+we do a margin of -0.30999755859375
+at 2025-06-03 05:45:00+00:00 We sell position of price 65.81999969482422
+at 2025-06-03 07:10:00+00:00 We buy position of price 67.5999984741211
+we do a margin of -1.779998779296875
+at 2025-06-03 07:55:00+00:00 We sell position of price 65.81999969482422
+at 2025-06-03 10:30:00+00:00 We buy position of price 65.63999938964844
+we do a margin of 0.18000030517578125
+at 2025-06-03 11:00:00+00:00 We sell position of price 65.54000091552734
+at 2025-06-03 12:00:00+00:00 We buy position of price 65.62999725341797
+we do a margin of -0.089996337890625
+at 2025-06-03 12:20:00+00:00 We sell position of price 65.41000366210938
+at 2025-06-03 15:35:00+00:00 We buy position of price 68.11000061035156
+we do a margin of -2.6999969482421875
+at 2025-06-16 07:30:00+00:00 We sell position of price 66.0
+at 2025-06-16 17:55:00+00:00 We buy position of price 66.5
+we do a margin of -0.5
+at 2025-06-18 07:00:00+00:00 We buy position of price 66.66000366210938
+at 2025-06-18 10:50:00+00:00 We sell position of price 65.91000366210938
+we do a margin of -0.75
+at 2025-06-20 07:35:00+00:00 We sell position of price 66.0199966430664
+at 2025-06-20 10:05:00+00:00 We buy position of price 66.5999984741211
+we do a margin of -0.5800018310546875
+at 2025-06-20 15:55:00+00:00 We buy position of price 67.77999877929688
+at 2025-06-20 16:40:00+00:00 We sell position of price 66.8499984741211
+we do a margin of -0.9300003051757812
+at 2025-06-23 15:10:00+00:00 We buy position of price 67.7300033569336
+at 2025-06-23 16:30:00+00:00 We sell position of price 66.9800033569336
+we do a margin of -0.75
+at 2025-06-24 01:00:00+00:00 We buy position of price 67.75
+at 2025-06-24 03:15:00+00:00 We sell position of price 66.87000274658203
+we do a margin of -0.8799972534179688
+at 2025-06-24 15:05:00+00:00 We buy position of price 67.69999694824219
+at 2025-06-26 11:05:00+00:00 We sell position of price 67.79000091552734
+we do a margin of 0.09000396728515625
+at 2025-06-26 14:15:00+00:00 We buy position of price 68.08999633789062
+at 2025-06-30 08:50:00+00:00 We sell position of price 68.43000030517578
+we do a margin of 0.34000396728515625
+
+profitable trades 5 total 18
+stop losses  2
+
